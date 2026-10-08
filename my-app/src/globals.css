@@ -2,7 +2,7 @@
 
 @layer{
     body{
-        @apply h-screen w-screen
+        @apply h-screen w-screen;
     }
 
     main{
@@ -10,8 +10,9 @@
     }
 
     .container{
-        @apply flex flex-col justify-between h-screen w-screen
+        @apply flex flex-col justify-between h-screen w-screen; 
     }
+
     .frmCad{
         @apply w-[80%] bg-amber-50 mx-auto my-auto border p-5;
 
